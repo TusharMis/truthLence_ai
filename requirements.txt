@@ -1,0 +1,24 @@
+# ==============================================================================
+# TruthLens AI - Core Python Dependencies
+# PS03: Multi-Agent Research & Fact-Checking System
+# ==============================================================================
+
+# Web Dashboard Framework
+streamlit>=1.35.0
+
+# Google Gemini Official API SDKs
+google-genai>=0.1.1
+google-generativeai>=0.7.0
+
+# Live Web Research & Search Engines
+ddgs>=9.16.0
+duckduckgo-search>=6.1.0
+tavily-python>=0.3.3
+beautifulsoup4>=4.12.3
+requests>=2.31.0
+
+# Secure Environment Configuration
+python-dotenv>=1.0.1
+
+# Data Models & Schema Validation
+pydantic>=2.7.0

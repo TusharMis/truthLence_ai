@@ -1,0 +1,50 @@
+# ==============================================================================
+# TruthLens AI - Git Ignore
+# Protects sensitive secrets, virtual environments, caches & temporary files
+# ==============================================================================
+
+# Environment variables & secrets (CRITICAL: NEVER commit real API keys)
+.env
+*.env
+.env.*
+!.env.example
+
+# Streamlit secrets & internal configuration
+.streamlit/secrets.toml
+secrets.toml
+.streamlit/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Temporary, swap and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Testing & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and runtime exports
+logs/
+exports/
+*.log
